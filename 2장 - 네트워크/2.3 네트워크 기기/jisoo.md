@@ -59,7 +59,7 @@ L7 스위치 뿐만 아니라 L4 스위치도 로드밸런서이다.
 - 서버 A에 장애가 생기 서버 B를 이용하여 서비스를 안정적으로 운용
 
 <p align="center">
-<img src="https://github.com/codesooo/cs-study-jj/assets/88030238/8fd4012c-0a0c-4711-a10b-bc7b19bfe6cc" width="50%" height="50%"  >
+<img src="https://github.com/codesooo/cs-study-jj/assets/88030238/8fd4012c-0a0c-4711-a10b-bc7b19bfe6cc" width="40%" height="40%"  >
 </p>
 
 user들은 로드밸런서가 제공한 가상 IP인 `0.0.0.12010`에 접근한다. 이는 뒷단의 두 서버, 즉 `0.0.0.12011`과 `0.0.0.12012`를 기반으로 서빙된다. `0.0.0.12011` 서버에 장애가 발생해도 `0.0.0.12012` 서버를 통해 서비스를 안정적으로 운용할 수 있다.
