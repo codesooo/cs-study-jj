@@ -1,4 +1,4 @@
-![image](https://github.com/codesooo/cs-study-jj/assets/129932517/d0013309-3ebe-4e08-a35d-c0d5c5b71848)# 2.5 HTTP
+# 2.5 HTTP
 
 # 5.1 HTTP/1.0
 - 한 연결당 하나의 요청을 처리
