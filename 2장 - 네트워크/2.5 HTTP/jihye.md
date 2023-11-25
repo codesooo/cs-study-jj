@@ -20,6 +20,8 @@
 - ![image](https://github.com/codesooo/cs-study-jj/assets/129932517/7a8b3dcf-4603-4dce-80c3-c7666a09be89)
 - 다음 그림은 한 번 tcp-3웨이 핸드셰이크가 발생하면 그 다음부터 발생하지 않는 것을 볼 수 있다.
 - (-) 문서안에 포함된 다수의 리소스를 처리하려면 요청할 리소스 개수에 비례해서 대기 시간이 길어짐
+  - * TCP의 3-way Handshaking 과정[STEP 1]A클라이언트는 B서버에 접속을 요청하는 SYN 패킷을 보낸다. 이때 A클라이언트는 SYN 을 보내고 SYN/ACK 응답을 기다리는SYN_SENT 상태가 되는 것이다. [STEP 2] B서버는 SYN요청을 받고 A클라이언트에게 요청을 수락한다는 ACK 와 SYN flag 가 설정된 패킷을 발송하고 A가 다시 ACK으로 응답하기를 기다린다. 이때 B서버는 SYN_RECEIVED 상태가 된다. [STEP 3]A클라이언트는 B서버에게 ACK을 보내고 이후로부터는 연결이 이루어지고 데이터가 오가게 되는것이다. 이때의 B서버 상태가 ESTABLISHED 이다.위와 같은 방식으로 통신하는것이 신뢰성 있는 연결을 맺어 준다는 TCP의 3 Way handshake 방식이다.
+출처: https://mindnet.tistory.com/entry/네트워크-쉽게-이해하기-22편-TCP-3-WayHandshake-4-WayHandshake [Mind Net:티스토리]
 
 - 단점
   - HOL Blocking
