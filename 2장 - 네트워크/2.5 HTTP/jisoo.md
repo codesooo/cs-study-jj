@@ -123,6 +123,7 @@ HTTP/1.1의 헤더에는 쿠키 등 많은 메타데이터가 들어있고, 압�
 - g,x,p를 알면 y를 구하기 쉬움
 - g,y,p를 알면 x를 구하기 어려움
 <img src="https://github.com/codesooo/cs-study-jj/assets/88030238/df389c00-0ddb-4e0d-854a-af84c6f3d761" width="40%">
+
 1) 공개 값 공유 ->  각자의 비밀 값과 혼합 -> 혼합 값을 공유
 2) 각자의 비밀 값과 혼합
 3) PSK 생성 완료
